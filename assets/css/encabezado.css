@@ -11,13 +11,13 @@
 }
 
 .Header_titulo {
-    color: var(--preto-100, #464646);
+    color: var(--Preto-100, #464646);
     font-size: 1rem;
     font-weight: 700;
 }
 
 .Header_contacto {
-    color: var(--preto-100, #464646);
+    color: var(--Preto-100, #464646);
     font-size: 0.875rem;
     font-weight: 400;
     padding-top: 0.2rem;
