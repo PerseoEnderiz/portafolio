@@ -6,15 +6,44 @@
     --Preto-30: #C8C8C8;
     --Preto-50: #A2A2A2;
     --Preto-branco: #FFFFFF;
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
 
     --rwFont: "Raleway", sans-serif;
   }  
 
 body {
     font-family: var(--rwFont);
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
     /*Usa la fuente open sans y si no existe, usa la sans seriff*/
 }
 .container{
-    padding-right: 6%;
-    padding-left: 6%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.titulo{
+    color: var(--preto-100, #464646);
+    text-align: center;
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+.descripcion{
+    color: var(--preto-100, #464646);
+    font-size: 1rem;
+    font-weight: 400;
 }

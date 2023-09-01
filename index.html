@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Importacion de estilos -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/bases.css">
-    <link rel="stylesheet" href="./assets/css/presentacion.css">
     <link rel="stylesheet" href="./assets/css/encabezado.css">
+    <link rel="stylesheet" href="./assets/css/presentacion.css">
+    <link rel="stylesheet" href="./assets/css/sobreMi.css">
+    <link rel="stylesheet" href="./assets/css/estudios.css">
+    <link rel="stylesheet" href="./assets/css/hobbies.css">
+    <link rel="stylesheet" href="./assets/css/habilidades.css">
+    <link rel="stylesheet" href="./assets/css/proyectos.css">
+    <link rel="stylesheet" href="./assets/css/contacto.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
 
 
     <!-- Importacion fuentes -->
@@ -19,7 +27,7 @@
     <header class="encabezado container">
         <section class="Header_nombre">
             <img src="./assets/img/estrellas.svg" alt="Imagen estrellas" class="Header_imagen">
-            <h1 class="Header_titulo"> Portafolio Juan García</h1>
+            <h1 class="Header_titulo"> Juan García</h1>
         </section>
         <h2 class="Header_contacto">jmgarvoc3@gmail.com</h2>
     </header>
@@ -27,7 +35,7 @@
     <section class="presentacion container">
         <img src="./assets/img/perfil.jpg" alt="Imagen de perfil" class="presentacion_imagen">
         <h2 class="presentacion_titulo"> Hola, mi nombre es Juan García y construyo paginas web </h2>
-        <p class="presentacion_contenido">Soy formado en programación Front-End y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p>
+        <p class="presentacion_contenido descripcion">Soy formado en programación Front-End y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p>
         <ul class="lista_redes">
             <li class="redes_enlace"><a href="https://github.com/"> Github <img class="link_flecha" src="./assets/img/arrow_link.svg" alt="Flecha redireccionamiento"></a></li>
             <li class="redes_enlace"><a href="https://www.linkedin.com/"> Linkedin <img class="link_flecha" src="./assets/img/arrow_link.svg" alt="Flecha redireccionamiento"></a></li>
@@ -35,5 +43,82 @@
             <li class="redes_enlace"><a href="#"> Curriculo <img class="link_flecha" src="./assets/img/arrow_link.svg" alt="Flecha redireccionamiento"></a></li>
         </ul>
     </section>
+
+    <section class="sobreMi container">
+        <h2 class="sobreMi_titulo"> Sobre mi</h2>
+        <p class="sobreMi_descripcion descripcion">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. 
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.
+        </p>
+        <img src="" alt="Firma" class="sobreMi_firma">
+    </section>
+
+    <section class="habilidades container">
+        <h2 class="habilidades_titulo titulo">Skills</h2>
+        <ul class="habilidades_lista">
+            <li class="hablidades_elemento"><img src="" alt="" class="habilidades_elemento__imagen"></li>
+            <li class="hablidades_elemento"><img src="" alt="" class="habilidades_elemento__imagen"></li>
+            <li class="hablidades_elemento"><img src="" alt="" class="habilidades_elemento__imagen"></li>
+            <li class="hablidades_elemento"><img src="" alt="" class="habilidades_elemento__imagen"></li>
+            <li class="hablidades_elemento"><img src="" alt="" class="habilidades_elemento__imagen"></li>
+            <li class="hablidades_elemento"><img src="" alt="" class="habilidades_elemento__imagen"></li>
+        </ul>
+    </section>
+
+    <section class="hobbies container">
+        <h2 class="hobbies_titulo titulo">
+            Hobbies
+        </h2>
+        <ul class="hobbies_lista">
+            <li class="hobbies_elemento"><img src="" alt="" class="hobbies_img"></li>
+            <li class="hobbies_elemento"><img src="" alt="" class="hobbies_img"></li>
+            <li class="hobbies_elemento"><img src="" alt="" class="hobbies_img"></li>
+            <li class="hobbies_elemento"><img src="" alt="" class="hobbies_img"></li>
+            <li class="hobbies_elemento"><img src="" alt="" class="hobbies_img"></li>
+            <li class="hobbies_elemento"><img src="" alt="" class="hobbies_img"></li>
+            <li class="hobbies_elemento"><img src="" alt="" class="hobbies_img"></li>
+            <li class="hobbies_elemento"><img src="" alt="" class="hobbies_img"></li>
+            <li class="hobbies_elemento"><img src="" alt="" class="hobbies_img"></li>
+        </ul>
+    </section>
+
+    <section class="estudios container">
+        <h2 class="estudio titulo"> Formación acádemica</h2>
+
+    </section>
+
+    <section class="proyectos container">
+        <h2 class="proyectos_titulo titulo"> Experiencia profesional </h2>
+    </section>
+
+    <section class="contacto container">
+        <h2 class="contacto_titulo titulo">Contacto</h2>
+        <p class="contacto_descripcion descripcion">
+            ¿Quieres contactarme?
+            Complete el siguiente formulario  y me pondré en contacto con usted lo antes posible.
+        </p>
+        <form action="enviar.php" method="post" class="Formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto">
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+          </form>
+    </section>
+
+    <footer class="footer">
+        <h3 class="footer_descripcion"> Desarrollado por Juan García</h3>
+        <br>
+        <h3 class="footer_año">2023</h3>
+    </footer>
 </body>
 </html>

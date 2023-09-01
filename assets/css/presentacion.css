@@ -36,15 +36,18 @@
     color: var(--Preto-100, #464646);
     font-size: 0.875rem;
     font-weight: 600;
+    padding: 0;
   }
   .redes_enlace{
     display: inline-block;
-
-    margin-right: 8px;
-    margin-bottom: 0.7rem;
+    margin-right: 0.2rem;
+    vertical-align: center;
   }
   .link_flecha{
     width: 1rem;
     height: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 0.1rem;
+    
+    margin: 0;
+    padding: 0;
   }
