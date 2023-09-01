@@ -1,0 +1,20 @@
+/* colores y fuentes a usar */
+:root {
+    --Azul-10: #EAF2FD;
+    --Azul-100: #2A7AE4;
+    --Preto-100: #464646;
+    --Preto-30: #C8C8C8;
+    --Preto-50: #A2A2A2;
+    --Preto-branco: #FFFFFF;
+
+    --rwFont: "Raleway", sans-serif;
+  }  
+
+body {
+    font-family: var(--rwFont);
+    /*Usa la fuente open sans y si no existe, usa la sans seriff*/
+}
+.container{
+    padding-right: 6%;
+    padding-left: 6%;
+}
