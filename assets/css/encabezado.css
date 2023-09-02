@@ -6,14 +6,14 @@
 .Header_imagen {
     width: 1.5rem;
     height: 1.5rem;
-    padding-top: 0.5rem;
-    padding-right: 0.4rem;
+    margin: auto 0.5rem;
 }
 
 .Header_titulo {
     color: var(--Preto-100, #464646);
     font-size: 1rem;
     font-weight: 700;
+    margin: auto 0;
 }
 
 .Header_contacto {

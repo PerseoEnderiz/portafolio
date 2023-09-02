@@ -38,20 +38,22 @@
     
     <section class="presentacion container">
         <img src="./assets/img/perfil.jpg" alt="Imagen de perfil" class="presentacion_imagen">
-        <h2 class="presentacion_titulo titulo"> Hola, mi nombre es Juan García y construyo paginas web </h2>
-        <p class="presentacion_contenido descripcion">
-            Participante Front End de Oracle ONE en Alura Latam
-        </p>
-        <ul class="lista_redes">
-            <li class="redes_enlace"><a href="https://github.com/" target="_blank"> Github </a></li>
-            <li class="redes_enlace"><a href="https://www.linkedin.com/" target="_blank"> Linkedin </a></li>
-            <li class="redes_enlace"><a href="https://www.instagram.com/" target="_blank"> Instagram </a></li>
-            <li class="redes_enlace"><a href="#" target="_blank"> Curriculo </a></li>
-        </ul>
+        <div class="presentacion_texto">
+            <h2 class="presentacion_titulo titulo"> Hola, mi nombre es Juan García y construyo paginas web </h2>
+            <p class="presentacion_contenido descripcion">
+                Participante Front End de Oracle ONE en Alura Latam
+            </p>
+            <ul class="lista_redes">
+                <li class="redes_enlace"><a href="https://github.com/" target="_blank"> Github </a></li>
+                <li class="redes_enlace"><a href="https://www.linkedin.com/" target="_blank"> Linkedin </a></li>
+                <li class="redes_enlace"><a href="https://www.instagram.com/" target="_blank"> Instagram </a></li>
+                <li class="redes_enlace"><a href="#" target="_blank"> Curriculo </a></li>
+            </ul>
+        </div>
     </section>
 
     <section class="sobreMi container">
-        <h2 class="sobreMi_titulo"> Sobre mi</h2>
+        <h2 class="sobreMi_titulo titulo"> Sobre mi</h2>
         <p class="sobreMi_descripcion descripcion">
             Entusiasta por todo lo que tenga que ver con los sistemas de información y la tecnología.
             Actualmente incursionando en el diseño de paginas web.
@@ -103,10 +105,13 @@
     </section>
 
     <section class="contacto container">
-        <h2 class="contacto_titulo titulo">Contacto</h2>
-        <p class="contacto_descripcion descripcion">
-            ¿Quieres contactarme?
-            Complete el siguiente formulario  y me pondré en contacto con usted lo antes posible.
+        <img src="./assets/img/contac.jpg" alt="" class="contacto_img">
+        <div class="contacto_form">
+            <h2 class="contacto_titulo titulo">Contacto</h2>
+            <p class="contacto_descripcion descripcion">
+                ¿Quieres contactarme?
+                Complete el siguiente formulario  y me pondré en contacto con usted lo antes posible.
+            </p>
             <form action="enviar.php" method="post" class="Formulario">
                 <div class="campo_texto">
                     <input type="text" id="nombre" name="nombre" required class="inp">
@@ -127,10 +132,10 @@
                     <textarea id="mensaje" name="mensaje" required class="inp_textarea"></textarea>
                     <label for="mensaje" class="lbl"><span class="text-nomb">Mensaje</span></label>
                 </div>
-    
                 <br>
                 <input class="btn" type="submit" value="Enviar Mensaje">
             </form>
+        </div>
     </section>
     
     

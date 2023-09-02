@@ -48,3 +48,11 @@ a{
     font-weight: 400;
     text-align: justify;
 }
+@media screen and (min-width:1024px){
+    .descripcion{
+        font-size: 1.1rem;
+    }
+    .titulo{
+        font-size: 2rem;
+    }
+}

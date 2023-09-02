@@ -1,7 +1,7 @@
 .estudios_lista {
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     justify-items: center;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .estudios_img {
-    width: 16rem;
+    width: 18rem;
     height: 8rem;
     padding: 0 0 0.3rem 0;
     margin: 0 auto;
@@ -27,3 +27,11 @@
     text-align: center;
     margin: 0 auto;
  }
+ @media screen and (min-width:1024px){
+    .estudios_elemento {
+        width: 33%;
+    }
+    .estudios_img {
+        width: 100%
+    }
+}
